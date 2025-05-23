@@ -1,8 +1,8 @@
 name: Run Every 3 Hours
 
 on:
-  schedule:
-    - cron: '0 */3 * * *'  # Every 3 hours
+  #schedule:
+    #- cron: '0 */3 * * *'  # Every 3 hours
   workflow_dispatch:       # Optional manual trigger
 
 jobs:
